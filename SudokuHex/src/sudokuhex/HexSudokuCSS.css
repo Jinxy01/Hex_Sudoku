@@ -1,0 +1,198 @@
+
+.root {
+    -fx-background-image: url("Subtle_Grey.jpg");
+}
+
+.button {
+    -fx-background-color: brown;
+    -fx-text-fill: white;
+    -fx-font-family: Consolas;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( one-pass-box , #c9c8c8 , 0 , 5 , 2, 2 );
+
+}
+
+.button:pressed{
+    -fx-background-color: white;
+    -fx-text-fill: brown;
+    -fx-font-family: Consolas;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-background-color: brown , white;
+    -fx-font-family: Consolas;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.text-field:focused {
+    -fx-background-color: brown , white;
+    -fx-font-family: Consolas;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+#personalizado {
+    -fx-background-color: brown , white;
+    -fx-font-family: Consolas;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+#personalizado:focused {
+    -fx-background-color: brown , white;
+    -fx-font-family: Consolas;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+
+.combo-box-base{
+    -fx-background-color: brown , white;
+    -fx-background-radius: 6.4, 4, 5, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.combo-box .list-cell 
+{
+    -fx-background: white;
+    -fx-background-color: brown , white;
+    -fx-text-fill: brown;
+    -fx-font-family: Consolas;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+
+}
+
+.combo-box-popup .list-view 
+{
+    -fx-background-color: brown , white;
+
+}    
+
+.combo-box-popup .list-view .list-cell 
+{
+    -fx-text-fill: brown;
+    -fx-font-family: Consolas;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover 
+{
+    -fx-background: brown , white;
+    -fx-background-color: white;
+    -fx-text-fill: brown;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover 
+{
+    -fx-background-color: brown;
+    -fx-text-fill: white;
+}
+
+
+.combo-box-base:hover
+{
+    -fx-color: -fx-hover-base;
+}
+
+.combo-box-base:showing 
+{
+    -fx-color: -fx-pressed-base;
+
+}
+
+.combo-box-base:focused {
+    -fx-background-color: brown , white;
+    -fx-background-radius: 6.4, 4, 5, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.combo-box-base:disabled {
+    -fx-opacity: .4;
+}
+
+.check-box {
+    -fx-font-family: Consolas;
+    -fx-font-size: 15px;
+}
+.check-box .box {
+
+    -fx-background-color: white;
+    -fx-border-color:grey;
+    -fx-border-radius:3px; 
+
+}
+
+.check-box:selected .mark {
+
+    -fx-background-color: white;
+
+}
+
+.check-box:selected .box {
+
+    -fx-background-color: #FFAAAA;
+}
+
+#titulo {
+    -fx-text-fill: #9b2948;
+    -fx-font-family: Consolas;
+    -fx-font-size: 45px;
+    -fx-font-weight: bold;
+}
+
+#subtitulo1 {
+    -fx-text-fill: #9b2948;
+    -fx-font-family: Consolas;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+#subtitulo {
+    -fx-text-fill: #9b2948;
+    -fx-font-family: Consolas;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#categoria {
+    -fx-text-fill: #9b2948;
+    -fx-font-family: Consolas;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+#aviso {
+    -fx-text-fill: brown;
+    -fx-font-family: Consolas;
+    -fx-font-size: 15px;
+
+}
+
+#temporizador{
+    -fx-font-family: Consolas;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  brown;
+}
+.table-view .column-header .label{
+    -fx-text-fill: white;
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold; 
+    -fx-alignment: CENTER;
+}
+.table-view .cell {
+    -fx-font-family: Consolas;
+    -fx-font-size: 15px;
+}
+
